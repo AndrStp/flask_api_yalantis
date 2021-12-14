@@ -18,7 +18,7 @@ def create_app(config_name: str='default'):
     from .models import Driver, Vehicle    
 
     # api blueprint
-    from app.api import api
-    app.register_blueprint(api, url_prefix='/api')
+    from .api import api as api_blueprint
+    app.register_blueprint(api_blueprint, url_prefix='/api/v1')
 
     return app
