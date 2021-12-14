@@ -38,8 +38,8 @@ Project structure:
 ## Running 
 
 1. Clone repository.
-2. pip install requirements.txt
-3. Initialize venv and activate it
+2. Initialize venv and activate it
+3. pip install requirements.txt
 4. Run following commands:
     1. flask db init
     2. flask db migrate
