@@ -22,7 +22,7 @@ class TestConfig(BaseConfig):
     FLASK_ENV = 'development'
 
     # SQLAlchemy config
-    SQLALCHEMY_DATABASE_URI = f'sqlite////in_memory' # TODO
+    SQLALCHEMY_DATABASE_URI = f'sqlite////some_other_db' # TODO
 
 
 class DevelopmentConfig(BaseConfig):
