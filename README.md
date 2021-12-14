@@ -41,9 +41,9 @@ Project structure:
 2. pip install requirements.txt
 3. Initialize venv and activate it
 4. Run following commands:
-    1. python db init
-    2. python db migrate
-    3. python db upgrade
+    1. flask db init
+    2. flask db migrate
+    3. flask db upgrade
 5. Start server by running python run.py runserver
 
 ## Usage
