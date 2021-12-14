@@ -1,4 +1,4 @@
-# Flask REST API project template
+# Flask REST API project
 
 This project shows one of the possible ways to implement RESTful API server.
 
