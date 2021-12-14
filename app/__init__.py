@@ -14,7 +14,8 @@ def create_app(config_name: str='default'):
     app.config.from_object(config[config_name])
 
     db.init_app(app)
-    migrate.init_app(app, db, directory='app/migrations')    
+    migrate.init_app(app, db, directory='app/migrations')
+    from .models import Driver, Vehicle    
 
     # api blueprint
     from app.api import api

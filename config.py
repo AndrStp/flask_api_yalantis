@@ -12,7 +12,7 @@ class BaseConfig:
     FLASK_ENV = environ.get('FLASK_ENV')
 
     # SQLAlchemy config
-    SQLALCHEMY_DATABASE_URI = f'sqlite:///' + path.join(basedir, 'data.sqlite')
+    SQLALCHEMY_DATABASE_URI = f'sqlite:///' + path.join(basedir, 'data.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
